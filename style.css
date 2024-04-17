@@ -12,12 +12,13 @@
     aspect-ratio: 1/1;
     width: 32%;
     object-fit: cover;
-
-}
-
-.galeria {
     border: 2px solid pink;
+
 }
+
+/*.galeria {
+    border: 2px solid pink;
+}*/
 
 body {
     background-color: rgb(28, 28, 28);
@@ -71,3 +72,13 @@ tr, td {
     text-align: left;
     padding: 8px;
 } 
+
+ul {
+    list-style-type: none;
+    color: pink;
+    display: flex;
+}
+
+li {
+    padding-right: 1%;
+}
