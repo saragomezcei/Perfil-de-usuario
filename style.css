@@ -1,84 +1,116 @@
-.perfil {
-    width: 20%;
-    border-radius: 50%;
-    border: 5px pink solid;
-}
-
-.header {
-    margin-top: 5%;
-}
-
-.imagengaleria {
-    aspect-ratio: 1/1;
-    width: 32%;
-    object-fit: cover;
-    border: 2px solid pink;
-
-}
-
-/*.galeria {
-    border: 2px solid pink;
-}*/
-
 body {
-    background-color: rgb(28, 28, 28);
+    background-color: white;
     font-family: helvetica;
     text-align: center;
 }
 
-p {
-    color: white;
+.foto-perfil {
+    border-radius: 50%;
+    border: 0.25rem solid pink;
+    aspect-ratio: 1/1;
+    width: 30%;
 }
 
-h2 {
-    color: pink;
-}
-
-table {
-    margin: auto;
-    color: white;
-    border-collapse: collapse;
-}
-
-tr, td {
-    padding: 2%;
-    border: 1px solid pink;
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;  */
+    flex-grow: 0.5;
 }
 
 .datos {
     display: flex;
-    margin: 5%;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 0.5rem;
+    border-right: 1px solid black;
+    margin: 0.5rem;
+    margin-left: 0;
+}
+
+.datos:last-child {
+    border-right: 0 solid black;
 }
 
 .datos-iconos {
-    text-align: left;
-    margin: auto;
     display: flex;
+    flex-direction: row;
+    /* gap: 0.5rem 0; */
 }
 
-.fa-solid {
-    color: white;
-    padding-right: 10px;
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0 1rem;
+}
+
+p {
+    margin: 0.1rem;
+}
+.tabla {
+    border-collapse: collapse;
+    color: black;
+    display: flex;
 }
 
 .celda-titulo {
     text-align: right;
-    padding: 8px;
+    padding: 2px 8px;
     background-color: pink;
     color: rgb(28, 28, 28);
 }
 
 .celda-respuesta{
     text-align: left;
-    padding: 8px;
+    padding: 2px 8px;
 } 
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
 
 ul {
     list-style-type: none;
-    color: pink;
+    color: white;
     display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
-li {
-    padding-right: 1%;
+.hashtags {
+    padding: 1px;
+    background-color: pink;
+    margin: 1% 0;
+}
+
+.imagengaleria {
+    aspect-ratio: 1/1;
+    width: 33.2%;
+    object-fit: cover;
+    border: 1px solid pink;
+}
+
+.galeria {
+    border: 2px solid pink;
+}
+
+.fila-fotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
