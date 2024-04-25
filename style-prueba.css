@@ -1,0 +1,86 @@
+.perfil {
+    width: 20%;
+    border-radius: 50%;
+    border: 5px pink solid;
+}
+
+.header {
+    margin-top: 5%;
+}
+
+.imagengaleria {
+    aspect-ratio: 1/1;
+    width: 33%;
+    object-fit: cover;
+    border: 2px solid pink;
+    width: min-content;
+
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+    background-color: rgb(28, 28, 28);
+    font-family: helvetica;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: pink;
+}
+
+table {
+    margin: auto;
+    color: white;
+    border-collapse: collapse;
+}
+
+tr, td {
+    padding: 2%;
+    border: 1px solid pink;
+}
+
+.datos {
+    display: flex;
+    margin: 5%;
+}
+
+.datos-iconos {
+    text-align: left;
+    margin: auto;
+    display: flex;
+}
+
+.fa-solid {
+    color: white;
+    padding-right: 10px;
+}
+
+.celda-titulo {
+    text-align: right;
+    padding: 8px;
+    background-color: pink;
+    color: rgb(28, 28, 28);
+}
+
+.celda-respuesta{
+    text-align: left;
+    padding: 8px;
+} 
+
+ul {
+    list-style-type: none;
+    color: pink;
+    display: flex;
+}
+
+li {
+    padding-right: 1%;
+}
